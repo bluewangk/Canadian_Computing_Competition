@@ -10,7 +10,8 @@ pepper_SHU_dict = {
 def calculate_total_speciness(peppers):
     total_speciness = 0
     for pepper in peppers:
-        total_speciness += pepper_SHU_dict[pepper]
+        if pepper in pepper_SHU_dict:
+            total_speciness += pepper_SHU_dict[pepper]
     
     return total_speciness
 
