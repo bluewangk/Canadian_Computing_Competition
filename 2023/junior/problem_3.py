@@ -1,4 +1,4 @@
-def get_maximum_participants(number, availabilities):
+def get_maximum_participants(availabilities):
     maximum_participants = 0
     maximum_day = ""
 
@@ -25,4 +25,4 @@ if __name__ == '__main__':
     for _ in range(number):
         availabilities.append(input())
 
-    print(get_maximum_participants(number, availabilities))
+    print(get_maximum_participants(availabilities))

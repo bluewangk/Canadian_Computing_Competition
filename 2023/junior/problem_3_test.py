@@ -1,7 +1,19 @@
-from problem_1 import get_final_score
+from problem_3 import get_maximum_participants
 
 def test_case_1():
-    assert get_final_score(5, 2) == 730
+    availabilities = [
+        "YY.Y.",
+        "...Y.",
+        ".YYY."
+    ]
+    assert get_maximum_participants(availabilities) == "4"
 
 def test_case_2():
-    assert get_final_score(0, 10) == -100
+    availabilities = [
+        "YY..Y",
+        ".YY.Y",
+        ".Y.Y.",
+        ".YY.Y",
+        "Y...Y",
+    ]
+    assert get_maximum_participants(availabilities) == "2,5"
