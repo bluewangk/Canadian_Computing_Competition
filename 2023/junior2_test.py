@@ -1,4 +1,4 @@
-from problem_2 import calculate_total_speciness
+from junior2 import calculate_total_speciness
 
 def test_case_1():
     assert calculate_total_speciness(["Poblano", "Cayenne", "Thai", "Poblano"]) == 118000

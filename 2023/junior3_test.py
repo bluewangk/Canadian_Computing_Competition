@@ -1,4 +1,4 @@
-from problem_3 import get_maximum_participants
+from junior3 import get_maximum_participants
 
 def test_case_1():
     availabilities = [
