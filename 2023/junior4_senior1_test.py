@@ -1,4 +1,4 @@
-from junior4_senior1 import calculate_tape_length
+from s1j4 import calculate_tape_length
 
 def test_case_1():
     assert calculate_tape_length(5, "1 0 1 0 1", "0 0 0 0 0") == 9
