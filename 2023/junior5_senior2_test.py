@@ -1,4 +1,4 @@
-from junior5_senior2 import hunt_word
+from s2j5 import hunt_word
 
 def test_case_1():
     word = "NATURE"
